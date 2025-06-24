@@ -3,9 +3,9 @@
 	"id": "nekowei-tool",
 	"version": "${version}",
 	"name": "nekowei tool",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "nekowei's toolkit!",
 	"authors": [
-		"Me!"
+		"nekowei"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -23,11 +23,6 @@
 		]
 	},
 	"mixins": [
-		"nekowei-tool.mixins.json",
-		{
-			"config": "nekowei-tool.client.mixins.json",
-			"environment": "client"
-		}
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
